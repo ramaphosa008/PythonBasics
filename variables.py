@@ -20,3 +20,13 @@ print(school, "is an institution that trains students on web and mobile app deve
 
 
 print("The sum of", num1, "and", num2, "is", num1+num2)
+
+
+# PRINT WITHOUT A NEW LINE
+
+#Option 1
+print("Hello World!", end=" ")
+print("I will print on the same line.")
+
+# Option 2
+print("Hello World!", "I will print on the same line.")

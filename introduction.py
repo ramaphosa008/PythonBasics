@@ -7,5 +7,11 @@ print("Cyril")
 print(100)
 print(20*3)
 
+#COMMENTS can also be written in terms of multiline strings( triple quotes)
+"""klfvnigdbhlfbuh """
 
-
+x = "John"
+print(x)
+#double quotes are the same as single quotes:
+x = 'John'
+print(x)
