@@ -1,7 +1,8 @@
+# Consider INDENTATION since it signifies a certain block of code
 number = int(input("Enter a number: "))
 
 if number % 2 == 0:
-    print(f"The number is even")
+    print(f"{number} is an even number")
 
 else:
-    print(f"The number is odd")
+    print(f"{number} is an odd number")
