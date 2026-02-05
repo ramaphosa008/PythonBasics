@@ -1,4 +1,4 @@
-
+# NB:/ Methods have brackets
 greeting = "Hello"
 course = "SOFTWARE ENGINEERING"
 message = f"{greeting} {course}"
