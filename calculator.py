@@ -10,15 +10,16 @@ if operator == "+":
 elif operator == "-":
     answer = num1 - num2
 
+elif operator == "*":
+    answer = num1 * num2
+    print("The answer is: ", answer)
+
 elif operator == "/":
     if num2 != 0:
         answer = num1 / num2
-    else: print("Cannot divide by zero!")
-
-elif operator == "*":
-    answer = num1 * num2
+    else:
+        print("Cannot divide by zero!")
 
 else:
     answer = "Math Error!"
 
-print("The answer is: ", answer)
