@@ -62,3 +62,6 @@ def dogs(name, breed, sex, age):
     
 dogs("Rocky", "Husky", "Male", 3)
 dogs("Crusher", "Bulldog", "Female", 4)
+
+def students( name, age, agenda):
+    print(name, age, agenda)
