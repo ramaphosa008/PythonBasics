@@ -1,4 +1,4 @@
-from zoneinfo import reset_tzpath
+
 
 num1 = float(input("Enter the first value: "))
 operator = input("Enter the operator((+, -, /, *): ")
@@ -27,3 +27,19 @@ elif operator == "/":
 else:
     answer = "Math Error!"
 
+print()
+
+print()
+
+##########################################_______OR______########################################
+
+class Calculator:
+  def add(self, a, b):
+    return a + b
+
+  def multiply(self, a, b):
+    return a * b
+
+calc = Calculator()
+print(calc.add(5, 3))
+print(calc.multiply(4, 7))

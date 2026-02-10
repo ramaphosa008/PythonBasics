@@ -1,5 +1,7 @@
 class employee:
 
+ # The __init__() method is used to assign values to object properties, or to perform operations that are necessary when the object is being created.
+
     def __init__(self, fullname, position, status, age):   #self - refers to a specific object
 
         # Attributes
@@ -13,7 +15,6 @@ class employee:
 
 
 employee1 = employee("John Mwirigi", "Managing Director", "Marrried", 57)
-
 
 print()
 
